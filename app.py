@@ -54,7 +54,7 @@ EMOJI_MAP = {
 }
 
 # Prediction thresholds
-CONF_THRESHOLD      = 0.35   # model must be at least 55% confident to flag
+CONF_THRESHOLD      = 0.25   # model must be at least 55% confident to flag
 VADER_NEG_THRESHOLD = -0.30  # VADER compound must be this negative to hard-alert
 
 # Page configuration
